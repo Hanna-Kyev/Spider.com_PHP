@@ -1,0 +1,191 @@
+
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,400;1,700&display=swap"; 
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media(min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col,
+.col-auto
+.col-md-4,
+.col-sm-6, 
+.col-lg-3,
+.col-lg-4,
+.col-lg-6,
+.col-lg-9,
+.col-xl-3 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col{
+    max-width: 100%;
+}
+
+.col-auto{
+    flex: 0.0 auto;
+    max-width: 100%;
+}
+
+@media(min-width:768px){
+    .col-md-4{
+        flex: 0 0 calc(4*100%/12);
+        max-width: calc(4*100%/12);
+    }
+}
+
+@media(min-width:576px){
+    .col-sm-6{
+        max-width: 50%;
+        flex: 0 0 calc(6*100%/12);
+    }
+}
+
+
+@media(min-width:992px){
+    .col-lg-3{
+        flex: 0 0 calc(3*100%/12);
+        max-width: calc(3*100%/12);
+    }
+    
+    .col-lg-4{
+        flex: 0 0 calc(4*100%/12);
+        max-width: calc(4*100%/12);
+    }
+
+    .col-lg-6{
+        flex: 0 0 calc(6*100%/12);
+        max-width: calc(6*100%/12); 
+    }
+
+    .col-lg-9{
+        flex: 0 0 calc(9*100%/12);
+        max-width: calc(9*100%/12); 
+    }
+
+}
+
+
+@media(min-width:1200px){
+    .col-xl-3{
+        flex: 0 0 calc(3*100%/12);
+        max-width: calc(3*100%/12);
+    }
+}
+
+.hero{
+    min-height: 30vh;
+    background-image: url('E:/Spider/book images/new/Slider new/Без назви-36.jpg');
+    background-size: cover;
+}
+
+.category-item{
+    position: relative;
+    display: block;
+}
+
+.category-item-title{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: wheat;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1rem;
+}
+
+.product-overlay{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.position-relative{
+    position: relative !important;
+}
+  
+.product-overlay ul li {
+    transition: all 0.3s;
+}
+  
+.product-overlay ul li:first-of-type {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+  
+.product-overlay ul li:last-of-type {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+.product:hover .product-overlay{
+    opacity: 1;
+}
+  
+.product:hover .product-overlay li {
+    opacity: 1;
+    transform: none;
+}
+  
+.product .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+}
+
+.product img{
+    transition: all 0.3s;
+    filter: grayscale(40%);
+}
+
+.product:hover img{
+    opacity: 0.5;
+}
+

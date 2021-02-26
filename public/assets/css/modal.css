@@ -1,0 +1,54 @@
+/*  */
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(102, 92, 92, 0);
+    z-index: 1000000;
+    transition: all 2s ease-in-out;
+    transition-delay: 0.2s;
+    pointer-events: none;
+}
+
+.modal .dialog{
+    margin: 0 auto;
+    width: 50vw;
+    position: relative;
+    top: -1000px;
+    padding: 5px 20px 13 px 20px;
+    border-radius: 10px;
+    background: linear-gradient(white, var(--clr-grey-5), #eee);
+    box-shadow: 0 0 10px #777;
+}
+
+.modal:target{
+    display: block;
+    pointer-events: auto;
+    background: rgba(4,10,30,0.9);
+    transition: all 0.5s ease-out;
+}
+
+.modal:target .dialog{
+    top: 50px;
+    transition: all 0.8s ease-out;
+    transition-delay: 0.4s;
+}
+
+.close{
+    background: #555;
+    color: seashell;
+    line-height: 26px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+    transition: all 0.5s ease-out;
+    transition-delay: 0.2s;
+}
