@@ -1,0 +1,61 @@
+[04-Mar-2021 18:01:11 Europe/Kiev] Hello Error
+[04-Mar-2021 18:01:38 Europe/Kiev] Hello Error
+[04-Mar-2021 18:13:34 Europe/Kiev] Hello Error
+[04-Mar-2021 18:13:50 Europe/Kiev] Hello Error
+[04-Mar-2021 18:14:06 Europe/Kiev] Hello Error
+[04-Mar-2021 18:14:23 Europe/Kiev] Hello Error
+[04-Mar-2021 18:18:28 Europe/Kiev] Hello Error
+[04-Mar-2021 18:18:52 Europe/Kiev] Hello Error
+[04-Mar-2021 18:19:35 Europe/Kiev] Hello Error
+[04-Mar-2021 18:19:48 Europe/Kiev] Hello Error
+[04-Mar-2021 18:20:35 Europe/Kiev] Hello Error
+[04-Mar-2021 18:20:49 Europe/Kiev] Hello Error
+[04-Mar-2021 18:22:54 Europe/Kiev] Hello Error
+[04-Mar-2021 18:27:34 Europe/Kiev] Hello Error
+[04-Mar-2021 18:27:42 Europe/Kiev] Hello Error
+[04-Mar-2021 18:28:20 Europe/Kiev] Hello Error
+[04-Mar-2021 18:28:49 Europe/Kiev] Hello Error
+[04-Mar-2021 18:33:47 Europe/Kiev] Hello Error
+[04-Mar-2021 18:41:18 Europe/Kiev] Hello Error
+[04-Mar-2021 19:07:58 Europe/Kiev] Hello Error
+[04-Mar-2021 19:07:58 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 49
+[04-Mar-2021 19:09:19 Europe/Kiev] Hello Error
+[04-Mar-2021 19:09:19 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
+[04-Mar-2021 19:10:00 Europe/Kiev] Hello Error
+[04-Mar-2021 19:10:06 Europe/Kiev] Hello Error
+[04-Mar-2021 19:10:26 Europe/Kiev] Hello Error
+[04-Mar-2021 19:10:26 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
+[04-Mar-2021 19:13:09 Europe/Kiev] Hello Error
+[04-Mar-2021 19:13:09 Europe/Kiev] PHP Notice:  Undefined variable: collection in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 34
+[04-Mar-2021 19:13:09 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
+[04-Mar-2021 19:18:56 Europe/Kiev] Hello Error
+[04-Mar-2021 19:18:56 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
+[04-Mar-2021 19:19:55 Europe/Kiev] Hello Error
+[04-Mar-2021 19:20:51 Europe/Kiev] Hello Error
+[04-Mar-2021 19:20:51 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 49
+[04-Mar-2021 19:21:11 Europe/Kiev] Hello Error
+[04-Mar-2021 19:26:48 Europe/Kiev] Hello Error
+[04-Mar-2021 19:27:27 Europe/Kiev] Hello Error
+[04-Mar-2021 19:28:20 Europe/Kiev] Hello Error
+[04-Mar-2021 19:34:58 Europe/Kiev] Hello Error
+[04-Mar-2021 19:36:06 Europe/Kiev] Hello Error
+[04-Mar-2021 20:04:18 Europe/Kiev] Hello Error
+[04-Mar-2021 20:04:52 Europe/Kiev] Hello Error
+[04-Mar-2021 20:05:50 Europe/Kiev] Hello Error
+[04-Mar-2021 20:07:35 Europe/Kiev] Hello Error
+[04-Mar-2021 20:08:05 Europe/Kiev] Hello Error
+[04-Mar-2021 20:08:12 Europe/Kiev] Hello Error
+[04-Mar-2021 20:08:15 Europe/Kiev] Hello Error
+[04-Mar-2021 20:09:33 Europe/Kiev] Hello Error
+[04-Mar-2021 21:46:44 Europe/Kiev] Hello Error
+[04-Mar-2021 21:46:49 Europe/Kiev] Hello Error
+[06-Mar-2021 11:39:43 Europe/Kiev] Hello Error
+[06-Mar-2021 11:39:47 Europe/Kiev] Hello Error
+[06-Mar-2021 11:40:21 Europe/Kiev] Hello Error
+[06-Mar-2021 11:44:02 Europe/Kiev] Hello Error
+[06-Mar-2021 11:44:04 Europe/Kiev] Hello Error
+[06-Mar-2021 11:48:25 Europe/Kiev] Hello Error
+[06-Mar-2021 11:48:48 Europe/Kiev] Hello Error
+[06-Mar-2021 11:48:51 Europe/Kiev] Hello Error
+[06-Mar-2021 11:49:10 Europe/Kiev] Hello Error
+[06-Mar-2021 11:49:13 Europe/Kiev] Hello Error

@@ -43,6 +43,6 @@
                         </div>
                     </div>
                 </div>
-    </div>
-    <script src="/assets/js/app.js"></script> 
-</footer>  
+    </div>    <script src="/assets/js/app.js"></script> 
+</footer>
+<script src="/assets/js/app.js"></script>   
