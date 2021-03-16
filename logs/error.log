@@ -1,61 +1,165 @@
-[04-Mar-2021 18:01:11 Europe/Kiev] Hello Error
-[04-Mar-2021 18:01:38 Europe/Kiev] Hello Error
-[04-Mar-2021 18:13:34 Europe/Kiev] Hello Error
-[04-Mar-2021 18:13:50 Europe/Kiev] Hello Error
-[04-Mar-2021 18:14:06 Europe/Kiev] Hello Error
-[04-Mar-2021 18:14:23 Europe/Kiev] Hello Error
-[04-Mar-2021 18:18:28 Europe/Kiev] Hello Error
-[04-Mar-2021 18:18:52 Europe/Kiev] Hello Error
-[04-Mar-2021 18:19:35 Europe/Kiev] Hello Error
-[04-Mar-2021 18:19:48 Europe/Kiev] Hello Error
-[04-Mar-2021 18:20:35 Europe/Kiev] Hello Error
-[04-Mar-2021 18:20:49 Europe/Kiev] Hello Error
-[04-Mar-2021 18:22:54 Europe/Kiev] Hello Error
-[04-Mar-2021 18:27:34 Europe/Kiev] Hello Error
-[04-Mar-2021 18:27:42 Europe/Kiev] Hello Error
-[04-Mar-2021 18:28:20 Europe/Kiev] Hello Error
-[04-Mar-2021 18:28:49 Europe/Kiev] Hello Error
-[04-Mar-2021 18:33:47 Europe/Kiev] Hello Error
-[04-Mar-2021 18:41:18 Europe/Kiev] Hello Error
-[04-Mar-2021 19:07:58 Europe/Kiev] Hello Error
-[04-Mar-2021 19:07:58 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 49
-[04-Mar-2021 19:09:19 Europe/Kiev] Hello Error
-[04-Mar-2021 19:09:19 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
-[04-Mar-2021 19:10:00 Europe/Kiev] Hello Error
-[04-Mar-2021 19:10:06 Europe/Kiev] Hello Error
-[04-Mar-2021 19:10:26 Europe/Kiev] Hello Error
-[04-Mar-2021 19:10:26 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
-[04-Mar-2021 19:13:09 Europe/Kiev] Hello Error
-[04-Mar-2021 19:13:09 Europe/Kiev] PHP Notice:  Undefined variable: collection in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 34
-[04-Mar-2021 19:13:09 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
-[04-Mar-2021 19:18:56 Europe/Kiev] Hello Error
-[04-Mar-2021 19:18:56 Europe/Kiev] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 48
-[04-Mar-2021 19:19:55 Europe/Kiev] Hello Error
-[04-Mar-2021 19:20:51 Europe/Kiev] Hello Error
-[04-Mar-2021 19:20:51 Europe/Kiev] PHP Notice:  Undefined index: messages in C:\xampp\htdocs\spider.com\app\Views\contacts\index.php on line 49
-[04-Mar-2021 19:21:11 Europe/Kiev] Hello Error
-[04-Mar-2021 19:26:48 Europe/Kiev] Hello Error
-[04-Mar-2021 19:27:27 Europe/Kiev] Hello Error
-[04-Mar-2021 19:28:20 Europe/Kiev] Hello Error
-[04-Mar-2021 19:34:58 Europe/Kiev] Hello Error
-[04-Mar-2021 19:36:06 Europe/Kiev] Hello Error
-[04-Mar-2021 20:04:18 Europe/Kiev] Hello Error
-[04-Mar-2021 20:04:52 Europe/Kiev] Hello Error
-[04-Mar-2021 20:05:50 Europe/Kiev] Hello Error
-[04-Mar-2021 20:07:35 Europe/Kiev] Hello Error
-[04-Mar-2021 20:08:05 Europe/Kiev] Hello Error
-[04-Mar-2021 20:08:12 Europe/Kiev] Hello Error
-[04-Mar-2021 20:08:15 Europe/Kiev] Hello Error
-[04-Mar-2021 20:09:33 Europe/Kiev] Hello Error
-[04-Mar-2021 21:46:44 Europe/Kiev] Hello Error
-[04-Mar-2021 21:46:49 Europe/Kiev] Hello Error
-[06-Mar-2021 11:39:43 Europe/Kiev] Hello Error
-[06-Mar-2021 11:39:47 Europe/Kiev] Hello Error
-[06-Mar-2021 11:40:21 Europe/Kiev] Hello Error
-[06-Mar-2021 11:44:02 Europe/Kiev] Hello Error
-[06-Mar-2021 11:44:04 Europe/Kiev] Hello Error
-[06-Mar-2021 11:48:25 Europe/Kiev] Hello Error
-[06-Mar-2021 11:48:48 Europe/Kiev] Hello Error
-[06-Mar-2021 11:48:51 Europe/Kiev] Hello Error
-[06-Mar-2021 11:49:10 Europe/Kiev] Hello Error
-[06-Mar-2021 11:49:13 Europe/Kiev] Hello Error
+[14-Mar-2021 20:51:42 Europe/Kiev] PHP Notice:  Undefined property: CategoryController::$view in C:\xampp\htdocs\spider.com\app\Controllers\Admin\CategoryController.php on line 14
+[14-Mar-2021 20:51:42 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to a member function render() on null in C:\xampp\htdocs\spider.com\app\Controllers\Admin\CategoryController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(32): CategoryController->create()
+#1 C:\xampp\htdocs\spider.com\core\Router.php(40): initController('C:\\xampp\\htdocs...', Object(CategoryController), 'create')
+#2 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#4 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\Admin\CategoryController.php on line 14
+[14-Mar-2021 21:11:39 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:39 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:40 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:40 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:41 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[14-Mar-2021 21:11:44 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:33 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:33 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:34 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:35 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:35 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:35 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:35 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 11:34:51 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\HomeController.php:12
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(32): HomeController->index()
+#1 C:\xampp\htdocs\spider.com\core\Router.php(40): initController('C:\\xampp\\htdocs...', Object(HomeController), 'index')
+#2 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#4 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\HomeController.php on line 12
+[15-Mar-2021 11:35:07 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function render() in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php:9
+Stack trace:
+#0 C:\xampp\htdocs\spider.com\core\Router.php(45): include_once()
+#1 C:\xampp\htdocs\spider.com\core\App.php(37): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spider.com\bootstrap\app.php(24): App->run()
+#3 C:\xampp\htdocs\spider.com\public\index.php(2): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\spider.com\app\Controllers\ErrorController.php on line 9
+[15-Mar-2021 14:56:30 Europe/Kiev] PHP Notice:  Undefined index: status in C:\xampp\htdocs\spider.com\app\Controllers\Admin\CategoryController.php on line 20
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Notice:  Undefined index: DB_HOST in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 20
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Notice:  Undefined index: DB_USERNAME in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 21
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Notice:  Undefined index: DB_PASSWORD in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 21
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Notice:  Undefined index: DB_NAME in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 22
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 22
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 42
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 43
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 46
+[15-Mar-2021 18:19:50 Europe/Kiev] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, bool given in C:\xampp\htdocs\spider.com\app\Controllers\ContactsController.php on line 49

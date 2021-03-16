@@ -1,5 +1,13 @@
 <?php
 
+class ContactsController
+{
+    public function index()
+    {
+        render('contacts/index', ['title'=>"Contacts/index Class"]);
+    }
+}
+
 $config = require_once CONFIG. '/db.php';
 
 $address = config('contacts');
@@ -27,16 +35,16 @@ if(!empty($_POST)){
 
 }
 
-    
-
-
+// $sql = "DELETE FROM guestbook";
+// mysqli_query($conn, $sql);    
 
 $sql = "SELECT * FROM guestbook";
 $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
     $messages = mysqli_fetch_all($result, 1);
 } else {
-    echo "Not messages yet";
+    $error = mysqli_error($conn);
+    // echo "Not messages yet";
 }
 mysqli_close($conn);
 

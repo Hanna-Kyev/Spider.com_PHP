@@ -1,5 +1,13 @@
 <?php
 
+class ConfigController
+{
+    public function index()
+    {       
+        render('config/index', ['title'=>"Config Class"]);
+    }
+}
+
 $url = CONFIG."/contacts.json";
 if($_POST){
 

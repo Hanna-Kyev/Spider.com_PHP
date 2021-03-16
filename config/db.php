@@ -2,10 +2,17 @@
 
 return [
     'db' => [
-        'DB_NAME' => 'Spider',
-        'DB_HOST'    => 'localhost',
-        'DB_PORT' => 3306,
+        'driver' => 'mysql',
+        'dbname' => 'Spider',
+        'host'   => 'localhost',
+        'charset' => 'utf8mb4',
+        'port' => 3306,
     ],
-    'DB_USERNAME' => 'root',
-    'DB_PASSWORD' => '',
+    'user' => 'root',
+    'password' => '',
+    'options' =>[
+        PDO::ATTR_ERRMODE  => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
+        PDO::ATTR_EMULATE_PREPARES => false
+    ]
 ];

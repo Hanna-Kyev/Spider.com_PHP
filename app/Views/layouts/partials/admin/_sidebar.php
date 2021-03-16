@@ -1,32 +1,81 @@
-<aside class="sidebar">
-    <div class="sidebar-header">
-        <button class="close-btn"><i class="fas fa-times"></i></button>
-        <h5 class="logo">Ваша корзина</h5>
+<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+    <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="/admin">
+                    <span data-feather="home"></span>
+                    Dashboard <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="file"></span>
+                    Orders
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/categories">
+                    <span data-feather="file"></span>
+                    Categories
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="shopping-cart"></span>
+                    Products
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="users"></span>
+                    Customers
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="bar-chart-2"></span>
+                    Reports
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="layers"></span>
+                    Integrations
+                </a>
+            </li>
+        </ul>
+
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Saved reports</span>
+            <a class="d-flex align-items-center text-muted" href="#" aria-label="Add a new report">
+                <span data-feather="plus-circle"></span>
+            </a>
+        </h6>
+        <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Current month
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Social engagement
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Year-end sale
+                </a>
+            </li>
+        </ul>
     </div>
-    <div class="cart-items">
-        <div class="cart-item">
-            <div class="picture product-img">
-                <img src="./book images/20.jpg" alt="book 20" class="img-fluid w=100">
-            </div>
-            <div class="product-name">Клиффорд Саймак</div>
-            <div class="remove-btn text-right">
-                <a href="#" class="reset-anchor m-auto"><i class="fas fa-trash-alt"></i></a>
-            </div>
-            <div class="quantity">
-                <div class="border d-flex justify-content-around mx-auto">
-                        <i class="fas fa-caret-left"></i>
-                             <span class="border-1 p-1 amount">1</span>
-                        <i class="fas fa-caret-right"></i>
-                        </div>
-            </div>
-            <div class="price">
-                &#8372 <spa class="product-price">177</spa>
-                </div>
-            </div>
-            </div>
-        <div class="cart-footer">
-            <h3>your total : &#8372<span class="cart-total">0</span></h3>
-            <button class="clear-cart">Всё удалить!</button>
-        </div>    
-    </div>
-</aside>
+</nav>
